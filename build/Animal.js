@@ -7,7 +7,7 @@ var Animal = /** @class */ (function () {
         this.age = age;
     }
     Animal.prototype.makeSound = function () {
-        console.log("".concat(this.name, " has made a sound"));
+        console.log("".concat(this.name, " has made a sound."));
     };
     return Animal;
 }());
